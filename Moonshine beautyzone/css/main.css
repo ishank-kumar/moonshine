@@ -1,0 +1,1370 @@
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+/* *{
+    outline: 2px solid green;
+} */
+
+/* body {
+    width: 100%;
+   
+} */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .section1 {
+    height:95vh;
+} */
+
+.facial img {
+    width: 100%;
+    height: 100vh;
+
+    float: right;
+    position: relative
+}
+
+.look h1 {
+    position: absolute;
+    top: 9.5rem;
+    left: 3rem;
+    text-align: left;
+    color: #fc84b4;
+    font-family: "Herr Von Muellerhoff", Sans-serif;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.look h2 {
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1em;
+
+}
+
+.look p {
+    position: absolute;
+    top: 25rem;
+    left: 3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.section2 {
+    /* height: 85vh; */
+    margin-top: 5rem;
+    display: flex;
+
+}
+
+.hair img {
+    float: left;
+    height: 85vh;
+    width: 50vw;
+    border-style: inset;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.hairstyle h1 {
+    color: #fc84b4;
+    font-family: "Herr Von Muellerhoff", Sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
+    line-height: 1em;
+    margin-left: 3.5rem;
+    margin-top: 5rem;
+}
+
+.hairstyle h2 {
+    color: #222a3e;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.93em;
+    margin-left: 7rem;
+}
+
+.hairstyle p {
+    margin: 2rem;
+    margin-left: 3.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.container2 {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+}
+
+.section3 {
+    width: 50%;
+}
+
+.about {
+    position: relative;
+}
+
+
+
+.about h1 {
+    margin: 4rem;
+    font-size: 6rem;
+    opacity: .05;
+    filter: blur(1px);
+
+}
+
+.about h2 {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+
+    /* color: rgba(0, 128, 0, 0.374); */
+    color: #fc84b4;
+}
+
+.about h3 {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    font-size: 3rem;
+    color: #222a3e;
+}
+
+.about p {
+    font-size: 1.4rem;
+    padding: 1.3rem;
+}
+
+.section4 {
+    width: 50%;
+
+}
+
+.qual {
+    margin-top: 6rem;
+    position: relative;
+}
+
+.qual h1 {
+    font-size: 7rem;
+    opacity: .05;
+    filter: blur(1px);
+    margin-top: 3rem;
+}
+
+
+.qual p1 {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.qual p2 {
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.qual p3 {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.qual p4 {
+    position: absolute;
+    top: 14rem;
+    left: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.qual p5 {
+    position: absolute;
+    top: 18rem;
+    left: 5rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+
+
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section5 {
+    position: relative;
+    width: 100%;
+    /* height: 50vh; */
+    /* background-color: yellow; */
+}
+
+.services h1 {
+    font-size: 8rem;
+    opacity: .04;
+    filter: blur(1px);
+    margin-top: 4rem;
+    margin-left: 18rem;
+}
+
+.services h2 {
+    position: absolute;
+    top: 5rem;
+    left: 34rem;
+    font-size: 2.5rem;
+    /* color: rgba(0, 128, 0, 0.374); */
+    color: #fc84b4;
+}
+
+.services h3 {
+    position: absolute;
+    top: 8rem;
+    left: 24rem;
+    font-size: 4rem;
+    /* color: rgba(0, 0, 0, 0.623); */
+    color: #222a3e;
+}
+
+.services h4 {
+    position: absolute;
+    top: 12rem;
+    left: 31rem;
+    font-size: 4rem;
+    /* color: rgba(0, 0, 0, 0.623); */
+    color: #222a3e;
+}
+
+
+
+.container4 {
+    margin-top: 4.4rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 4rem; */
+}
+
+.section6 hr {
+    width: 40vw;
+    margin-right: 4rem;
+}
+
+.section6 hr:hover {
+    opacity: 0.5;
+}
+
+.CT {
+    width: 40vw;
+    height: 30vh;
+    color: #222a3e;
+
+}
+
+.CT p1 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+
+.CT:hover {
+    scale: 1.05;
+}
+
+.TF {
+    width: 40vw;
+    height: 30vh;
+    color: #222a3e;
+}
+
+.TF p1 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.TF:hover {
+    scale: 1.05;
+}
+
+.OP {
+    width: 40vw;
+    height: 30vh;
+    color: #222a3e;
+
+}
+.OP p1 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.OP:hover {
+    scale: 1.05;
+}
+
+.section6 p {
+    font-size: 3rem;
+    margin-left: 5rem;
+
+}
+
+.section7 hr {
+    width: 40vw;
+}
+
+.section7 p {
+    font-size: 3rem;
+    margin-left: 5rem;
+
+}
+
+.QF {
+    width: 40vw;
+    height: 30vh;
+    color: #222a3e;
+}
+.QF p1 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.QF:hover {
+    scale: 1.05;
+}
+
+.WPM {
+    height: 30vh;
+    width: 40vw;
+    color: #222a3e;
+}
+.WPM p1 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.WPM:hover {
+    scale: 1.05;
+}
+
+.NSE {
+    height: 30vh;
+    width: 40vw;
+    color: #222a3e;
+}
+
+.NSE p1 {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.NSE:hover {
+    scale: 1.05;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing h1 {
+    color: #fc84b4;
+    font-family: "Herr Von Muellerhoff", Sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.pricing h2 {
+    font-size: 5rem;
+    /* font-family: "Montserrat", Sans-serif; */
+    font-weight: 800;
+    color: #222a3e;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.section8 {
+    height: 70vh;
+    width: 30vw;
+    /* background-color: rgba(0, 255, 255, 0.372); */
+}
+
+.section9 {
+    height: 70vh;
+    width: 30vw;
+
+}
+
+.section10 {
+    height: 70vh;
+    width: 30vw;
+ 
+}
+
+.section8 h1 {
+    color: #222a3e;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.section9 h1 {
+    color: #222a3e;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.section10 h1 {
+    color: #222a3e;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 0.1px;
+}
+
+.section8 h2 {
+    margin-left: 2rem;
+    color: #fc84b4;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.section9 h2 {
+    margin-left: 2rem;
+    color: #fc84b4;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.section10 h2 {
+    margin-left: 2rem;
+    color: #fc84b4;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.lists {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.lists li {
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: #222a3e;
+}
+.lists2 {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.lists2 li {
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: #222a3e;
+}
+.lists3 {
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.lists3 li {
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: #222a3e;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.section11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 1rem 0 0;
+}
+
+.section12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 1rem 1rem 0;
+}
+.img12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+
+}
+.img34{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img56{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+.img78{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section11 .img1 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section11 .img2 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section11 .img3 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section11 .img4 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section12 .img5 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section12 .img6 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section12 .img7 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.section12 .img8 img {
+    object-fit: cover;
+    height: 45vh;
+    width: 24vw;
+    border: 2px solid black;
+}
+
+.container7 {
+    position: relative;
+}
+
+.section13 img {
+    height: 90vh;
+    width: 100%;
+    /* position: relative; */
+}
+
+/* .appointment{
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+    position: relative;
+} */
+
+.appointment h1 {
+
+    position: absolute;
+    color: #fc84b4;
+    font-family: "Herr Von Muellerhoff", Sans-serif;
+    top: 3rem;
+    left: 28rem;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.appointment h2 {
+    position: absolute;
+    color: white;
+    top: 7.5rem;
+    left: 13rem;
+    font-size: 6rem;
+}
+
+.appointment h3 {
+    position: absolute;
+    color: #ffffff;
+    top: 13rem;
+    left: 15.5rem;
+    font-size: 6rem;
+}
+
+.appointment p1 {
+    position: absolute;
+    color: #ffffff;
+    top: 20rem;
+    left: 15rem;
+    font-size: 1rem;
+}
+
+.appointment p2 {
+    position: absolute;
+    color: #ffffff;
+    top: 21rem;
+    left: 23rem;
+    font-size: 1rem;
+}
+
+.section13 .box {
+    position: absolute;
+    top: 26rem;
+    left: 34rem;
+    height: 8vh;
+    width: 15vw;
+    /* background-color: #fc84b4; */
+    background-color: #222a3e;
+    cursor: none;
+}
+
+.section13 .box p {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.9rem 0.8rem 0.8rem 1.4rem;
+}
+
+.section13 .box :hover {
+    /* background-color: #222a3e; */
+    background-color: #fc84b4;
+    transition: all 1s ease;
+}
+
+.section14 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    height: 30vh;
+    width: 100%;
+    background-color: #fc84b4;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+}
+
+.material-symbols-outlined {
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.address p {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+}
+
+.call p {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+}
+
+.time p {
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.map{
+    /* height: 50vh; */
+    width: 100%;
+    /* background-color:black; */
+}
+.map p iframe{
+    height: 60vh;
+    width:100%
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    html {
+        font-size: 90%;
+    }
+
+    .CT p {
+        font-size: 2.8rem;
+    }
+
+    /* .services h1 {
+        font-size: 8rem;
+        opacity: .04;
+        filter: blur(1px);
+        margin-top: 4rem;
+        margin-left: 14rem;
+    } */
+    .section13 .box p {
+        color: white;
+        font-size: 0.65rem;
+        font-weight: 300;
+        padding: 1.1rem 0.8rem 0.8rem 1.4rem;
+    }
+}
+
+@media screen and (max-width:820px) {
+    html {
+        font-size: 70%;
+    }
+
+    .facial img {
+        height: 55vh;
+    }
+
+    .hair img {
+        width: 100%;
+        height: 55vh;
+    }
+
+    .services h1 {
+        margin-left: 15rem;
+    }
+
+    .services h2 {
+        left: 31rem;
+    }
+
+    .services h3 {
+        left: 21rem;
+    }
+
+    .services h4 {
+        left: 28rem;
+    }
+
+    .container4 {
+        margin-top: 7rem;
+    }
+
+    .CT {
+        height: 15vh;
+    }
+
+    .TF {
+        height: 15vh;
+    }
+
+    .OP {
+        height: 15vh;
+    }
+
+    .QF {
+        height: 15vh;
+    }
+
+    .WPM {
+        height: 15vh;
+    }
+
+    .NSE {
+        height: 15vh;
+    }
+
+    .section8 {
+        height: 35vh;
+    }
+
+    .section9 {
+        height: 35vh;
+    }
+
+    .section10 {
+        height: 35vh;
+    }
+
+    .section13 img {
+        height: 40vh;
+    }
+
+    .section13 .box {
+        left: 31rem;
+        height: 4vh;
+    }
+
+
+
+    .appointment h1 {
+        left: 25rem;
+    }
+
+    .appointment h2 {
+        left: 10rem;
+    }
+
+    .appointment h3 {
+        left: 12.5rem;
+    }
+
+    .appointment p1 {
+        left: 12rem;
+    }
+
+    .appointment p2 {
+        left: 20rem;
+    }
+
+    .section14 {
+        height: 15vh;
+    }
+    .map p iframe{
+        height: 40vh;
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 40%;
+    }
+    .facial img {
+        height: 40vh;
+    }
+
+    .hair img {
+        width: 100%;
+        height: 40vh;
+    }
+
+
+    .look h1 {
+        left: 6rem;
+        font-size: 8rem;
+    }
+    
+    .look h2 {
+        top: 18rem;
+        left: 9rem;
+        font-size: 7rem;
+    }
+    
+    .look p {
+        top: 33rem;
+        left: 6rem;
+        font-size: 1.8rem;
+    }
+    
+
+    .hairstyle h1 {
+        font-size: 10rem;
+        margin-left: 8.5rem;
+    }
+    
+    .hairstyle h2 {
+        font-size: 6.5rem;
+        margin-left: 13rem;
+    }
+    
+    .hairstyle p {
+        margin-left: 3.2rem;
+        font-size: 2.1rem;
+    }
+
+    .container2 {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section3 {
+        width: 100%;
+    }
+
+    .about h1 {
+        font-size: 10rem;
+    }
+    
+    .about h2 {
+        font-size: 2rem;
+    }
+    
+    .about h3 {
+        left: 8rem;
+        font-size: 5rem;
+    }
+    
+    .about p {
+        font-size: 1.9rem;
+        padding: 1.3rem;
+    }
+
+    .section4{
+        width: 100%;
+    }
+
+    .qual h1 {
+        font-size: 9rem;
+        margin-left: 22rem;
+    }
+    
+    
+    .qual p1 {
+        left: 20rem;
+        font-size: 4rem;
+    }
+    
+    .qual p2 {
+        top: 7rem;
+        left: 11rem;
+        font-size: 4rem;
+    }
+    
+    .qual p3 {
+        top: 12rem;
+        left: 16rem;
+        font-size: 4rem;
+    }
+    
+    .qual p4 {
+        top: 17rem;
+        left: 21rem;
+        font-size: 4rem;
+    }
+    
+    .qual p5 {
+        top: 22rem;
+        left: 19rem;
+        font-size: 4rem;
+    }
+
+    .container3{
+        margin-top: 20rem;
+    }
+    
+
+    .container4 {
+        margin-top: 8.4rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section6 hr{
+        width: 80vw;
+        margin-left: 8rem;
+    }
+    .section7 hr{
+        width: 80vw;
+        margin-left: 8rem;
+    }
+
+
+    .CT {
+        width: 80vw;
+        height: 15vh;
+        margin-left: 8rem;
+    }
+    .CT p{
+        margin-left: 11rem;
+        font-size: 5rem;
+    }
+    
+    .CT p1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .TF {
+        width: 80vw;
+        height: 15vh;
+        margin-left: 8rem;
+    }
+    .TF p{
+        margin-left: 18rem;
+        font-size: 5rem;
+    }
+    
+    .TF p1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .OP {
+        width: 80vw;
+        height: 15vh;
+        margin-left: 8rem;
+    }
+    .OP p{
+        margin-left: 13.5rem;
+        font-size: 5rem;
+    }
+    
+    .OP p1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .QF {
+        width: 80vw;
+        height: 15vh;
+        margin-left: 8rem;
+    }
+    .QF p{
+        margin-left: 16rem;
+        font-size: 5rem;
+    }
+    
+    .QF p1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .WPM {
+        width: 80vw;
+        height: 15vh;
+        margin-left: 8rem;
+    }
+    .WPM p{
+        margin-left: 8.5rem;
+        font-size: 5rem;
+    }
+    
+    .WPM p1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    .NSE {
+        width: 80vw;
+        height: 15vh;
+        margin-left: 8rem;
+    }
+    .NSE p{
+        margin-left: 14.5rem;
+        font-size: 5rem;
+    }
+    
+    .NSE p1 {
+        font-size: 2.5rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .pricing h1 {
+        font-size: 7rem;
+    }
+    
+    .pricing h2 {
+        font-size: 7rem;
+        /* font-family: "Montserrat", Sans-serif; */
+    }
+    
+
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5rem;
+    }
+
+    .section8{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section8 {
+        height: 35vh;
+        width: 100%;
+    }
+    
+    .section9 {
+        height: 35vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section10 {
+        height: 35vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section8 h1 {
+        font-size: 4.5rem;
+    }
+    .section9 h1 {
+        font-size: 4.5rem;
+    }
+        .section10 h1 {
+        font-size: 4.5rem;
+    }
+
+    .section8 h2 {
+        font-size: 2.6rem; 
+    }
+    .section9 h2 {
+        font-size: 2.6rem;  
+    }
+    .section10 h2 {
+        font-size: 2.6rem;
+    }
+
+    .section8 .lists {
+        margin-top: 3rem;
+        margin-left: -10rem;
+    }
+    
+    .section8 .lists li {
+        margin: 1rem;
+        font-size: 3rem;
+        color: #222a3e;
+    }
+    .section9 .lists2 {
+        margin-top: 3rem;
+        margin-left: -18rem;
+    }
+    
+    .section9 .lists2 li {
+        margin: 1rem;
+        font-size: 3rem;
+        color: #222a3e;
+    }
+    .section10 .lists3 {
+        margin-top: 3rem;
+        margin-left: -18rem;
+    }
+    
+    .section10 .lists3 li {
+        margin: 1rem;
+        font-size: 3rem;
+        color: #222a3e;
+    }
+
+    .section11 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section12 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section11 .img1 img {
+        height: 30vh;
+        width: 48vw;
+        margin-right: 0.2rem;
+    }
+    
+    .section11 .img2 img {
+        height: 30vh;
+        width: 48vw;
+    }
+    .section11 .img3 img {
+        height: 30vh;
+        width: 48vw;
+        margin-left: 1rem;
+    }
+    .section11 .img4 img {
+        height: 30vh;
+        width: 48vw;
+        margin-right: 0.25rem;
+    }
+    .section12 .img5 img {
+        height: 30vh;
+        width: 48vw;
+    }
+    .section12 .img6 img {
+        height: 30vh;
+        width: 48vw;
+        margin-right: 0.25rem;
+    }
+    .section12 .img7 img {
+        height: 30vh;
+        width: 48vw;
+        margin-left: 1rem;
+    }
+    .section12 .img8 img {
+        height: 30vh;
+        width: 48vw;
+        margin-right: 0.25rem;
+    }
+
+    .section13 img {
+        height: 25vh;
+        width: 100%;
+    }
+    
+
+
+    .appointment h1 {
+        left: 27rem;
+    }
+
+    .appointment h2 {
+        left: 12rem;
+    }
+
+    .appointment h3 {
+        left: 14.5rem;
+    }
+
+    .appointment p1 {
+        left: 11rem;
+        font-size: 1.2rem;
+    }
+
+    .appointment p2 {
+        left: 20rem;
+        font-size: 1.2rem;
+    }
+
+    .section13 .box {
+        left: 31rem;
+        height: 2.5vh;
+        width: 20vw;
+    }
+    .section13 .box p {
+        font-size: 1.05rem;
+    }
+    .section14{
+        height: 10vh;
+    }
+
+    .map p iframe{
+        width: 100%;
+        height: 40vh;
+    }
+
+}
+   
+
+
+
+
+
+@media screen and (max-width:450px){
+    html{
+        font-size: 32%;
+    }
+}
+@media screen and (max-width:350px){
+    html{
+        font-size: 28%;
+    }
+}
+@media screen and (max-width:300px){
+    html{
+        font-size: 22%;
+    }
+    .section13 img{
+        height: 20vh;
+    }
+}
+
